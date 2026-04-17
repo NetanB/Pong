@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 public class P1 : MonoBehaviour
 {
     public float moveSpeed;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,4 +23,5 @@ public class P1 : MonoBehaviour
             transform.Translate(Vector2.down * Time.deltaTime * moveSpeed);
         }
     }
+
 }
